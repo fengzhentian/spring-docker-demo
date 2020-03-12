@@ -1,0 +1,7 @@
+version: '3.1'
+services:
+  app:
+    image: spring-docker-demo
+    container_name: spring-docker-demo
+    ports:
+      - 8080:8080
